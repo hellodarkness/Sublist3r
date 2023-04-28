@@ -1,18 +1,15 @@
 ## About Sublist3r 
 
-Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather subdomains for the domain they are targeting. Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask. Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.
+This is a fork of Sublist3r with some tweaks to make VirusTotal work without an API key, since there doesn't seem to be much in the way of activity on the master. I may add further tweaks as required if I notice other issues with the tool.
+
+Sublist3r is a python tool by [aboul3la](https://github.com/aboul3la/Sublist3r) designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather subdomains for the domain they are targeting. Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask. Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.
 
 [subbrute](https://github.com/TheRook/subbrute) was integrated with Sublist3r to increase the possibility of finding more subdomains using bruteforce with an improved wordlist. The credit goes to TheRook who is the author of subbrute.
-
-## Screenshots
-
-![Sublist3r](http://www.secgeek.net/images/Sublist3r.png "Sublist3r in action")
-
 
 ## Installation
 
 ```
-git clone https://github.com/aboul3la/Sublist3r.git
+git clone https://github.com/hellodarkness/Sublist3r
 ```
 
 ## Recommended Python Version:
